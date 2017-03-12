@@ -1,0 +1,172 @@
+body {
+	background: rgb(222, 222, 222);
+}
+
+.nav {
+	background: rgb(51, 51, 51);
+}
+
+.nav img {
+	width: 8%;
+	margin: 5px 0px 5px 15px;
+}
+
+.nav ul {
+	display: inline-block;
+	float: right;
+	margin-right: 15px;
+}
+
+.nav li {
+	font-size: 12px;
+	width: 60px;
+	float: left;
+	margin-left: 20px;
+	list-style-type: disc;
+}
+
+.nav li a {
+	text-decoration: none;
+}
+
+.nav li:nth-child(-n+3) a {
+	color: rgb(251, 251, 251);
+}
+
+.nav li:nth-child(4) a {
+	color: rgb(159, 159, 159);
+}
+
+.article-one, 
+.article-two, 
+.picture, 
+.article-last, 
+.sidebar {
+	margin: 15px;
+	padding: 15px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.article-one > h2:nth-of-type(2), 
+.article-two > h2:nth-of-type(2),
+.article-last > h2:nth-of-type(2) {
+	font-size: 18px;
+	color: rgb(111, 111, 111);
+}
+
+.article-one > p:nth-of-type(1), 
+.article-two > p:nth-of-type(1),
+.article-last > p:nth-of-type(1) {
+	font-size: 14px;
+	color: rgb(111, 111, 111);
+}
+
+.article-one > p:nth-of-type(2), 
+.article-one > p:nth-of-type(4),
+.article-two > p:nth-of-type(2) {
+	text-indent: 2em;
+}
+
+.article-one img, 
+.article-two img {
+	width: 30%;
+}
+
+.article-two li {
+	list-style-type: none;
+}
+
+.picture li {
+	width: 30%;
+	margin: 10px;
+	padding: 10px;
+	border: 1px solid black;
+	list-style-type: none;
+}
+
+.picture li p {
+	text-align: center;
+}
+
+.picture li img {
+	width: 100%;
+}
+
+.article-last table {
+	width: 100%;
+	border: 1px solid rgb(204, 204, 204);
+	border-collapse: collapse;
+}
+
+.article-last th, 
+.article-last td {
+	padding: 5px;
+	text-align: left;
+	border: 1px solid rgb(204, 204, 204);
+}
+
+.article-last thead th {
+	background-color: rgb(51, 51, 51);
+	color: rgb(255, 255, 255);
+}
+
+.article-last tfoot td {
+	background-color: rgb(204, 204, 204);
+	color: rgb(0, 0, 0);
+}
+
+.sidebar > h2 {
+	padding: 5px;
+	font-size: 18px;
+	border-left: 5px solid rgb(204, 204, 204);
+}
+
+.form-body {
+	font-size: 14px;
+}
+
+.sidebar > form p {
+	font-size: 14px;
+	color: rgb(111, 111, 111);
+}
+
+.sidebar input[type="submit"] {
+	width: 100%;
+	margin-top: 5px;
+	padding: 5px;
+	color: rgb(255, 255, 255);
+	background-color: rgb(51, 85, 208);
+	border: none;
+	border-radius: 5px;
+}
+
+.sidebar textarea {
+	width: 100%;
+	height: 100px;
+	vertical-align: top;
+}
+
+.sidebar table {
+	width: 90%;
+	margin: 5px auto;
+}
+
+.sidebar td:nth-of-type(1) {
+	width: 30%;
+	padding: 5px;
+	padding-right: 15px;
+	text-align: right;
+}
+
+.footer {
+	padding: 10px;
+	background-color: rgb(0, 0, 0);
+}
+
+.footer p {
+	text-align: center;
+	color: rgb(255, 255, 255);
+}
+
+
