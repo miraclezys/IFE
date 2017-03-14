@@ -82,7 +82,7 @@
 
 * task03.html
 * task03.css   // 使用float实现
-* task03_f.css  // 使用position实现
+* task03_p.css  // 使用position实现
 
 
 
