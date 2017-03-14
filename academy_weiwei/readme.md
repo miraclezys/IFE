@@ -41,6 +41,49 @@
 * task02.css
 
 
+## 任务三：三栏式布局
+
+### 要求
+
+[三栏式布局](http://ife.baidu.com/course/detail/id/94)
+
+### 资料
+
+- [MDN：position](https://developer.mozilla.org/zh-CN/docs/Web/CSS/position)：了解 CSS position 属性的基本知识
+- [MDN：float](https://developer.mozilla.org/en-US/docs/Web/CSS/float)：了解 CSS float 属性的基本知识
+- [Learn CSS Positioning in Ten Steps](http://www.barelyfitz.com/screencast/html-training/css/positioning/)：通过具体的例子熟悉 position 属性
+- [清除浮动（clearfix hack）](http://zh.learnlayout.com/clearfix.html)：清除浮动是什么，如何简单地清除浮动
+- [StackOverflow：Which method of ‘clearfix’ is best?](http://stackoverflow.com/questions/211383/which-method-of-clearfix-is-best)：清除浮动黑科技完整解读
+
+### 完成情况
+
+应该基本符合任务要求。
+
+三栏式布局要点：
+
+*　如果想要使用浮动实现三栏式布局，需要将浮动的列写在固定列的前面，不然可能会出现浮动列在固定列下方的情况。
+
+```html
+<div>
+  <div class="left" style="float:left"></div>
+  <div class="right" style="float:right"></div>
+  <div class="main"></div>
+  </div>
+</div>
+```
+
+> [yubolun's 2017 Baidu IFE](http://ife.yubolun.com/html&css/2017/02/26/task-3-three-column.html)
+
+
+
+加入了响应式设计，即当屏幕大小小于某个值时，取消浮动。但是只是简单的应用了一下，对响应式布局设计还不了解，之后会认真学习这方面的知识。
+
+### 代码列表
+
+* task03.html
+* task03.css   // 使用float实现
+* task03_f.css  // 使用position实现
+
 
 
 
