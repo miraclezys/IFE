@@ -21,6 +21,7 @@
 
 
 
+
 ## 任务二：零基础HTML及CSS编码（一）
 
 ### 要求
@@ -39,6 +40,8 @@
 
 * task02.html
 * task02.css
+
+
 
 
 ## 任务三：三栏式布局
@@ -81,9 +84,31 @@
 ### 代码列表
 
 * task03.html
-* task03.css   // 使用float实现
-* task03_p.css  // 使用position实现
+* task03.css   
 
+
+
+
+## 任务四：定位和居中问题
+
+### 要求
+
+[定位和居中问题](http://ife.baidu.com/course/detail/id/95)
+
+### 资料
+
+- [HTML和CSS高级指南之二——定位详解](http://www.w3cplus.com/css/advanced-html-css-lesson2-detailed-css-positioning.html)：大漠老师手把手教你，这次彻底搞懂定位问题
+- [Centering in CSS: A Complete Guide](https://css-tricks.com/centering-css-complete-guide/)：完整讨论了不同情况下的居中方案，建议自己思考之后再看答案
+- [Get HTML & CSS Tips In Your Inbox](http://howtocenterincss.com/)：有人写了一个作弊工具生成居中代码，但是看着代码你明白为什么吗
+
+### 完成情况
+
+应该基本符合要求。觉得对于垂直居中还要继续深入了解
+
+### 代码列表
+
+* task04.html
+* task04.css
 
 
 
