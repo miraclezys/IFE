@@ -1,0 +1,186 @@
+body {
+	background: rgb(222, 222, 222);
+}
+
+.nav {
+	background: rgb(51, 51, 51);
+}
+
+.nav img {
+	width: 8%;
+	margin: 5px 0px 5px 15px;
+}
+
+.nav ul {
+	display: inline-block;
+	float: right;
+	margin-right: 15px;
+}
+
+.nav li {
+	font-size: 12px;
+	width: 60px;
+	float: left;
+	margin-left: 20px;
+	list-style-type: disc;
+}
+
+.nav li a {
+	text-decoration: none;
+}
+
+.nav li:nth-child(-n+3) a {
+	color: rgb(251, 251, 251);
+}
+
+.nav li:nth-child(4) a {
+	color: rgb(159, 159, 159);
+}
+
+.article-one, 
+.article-two, 
+.picture, 
+.article-last, 
+.sidebar {
+	margin: 15px;
+	padding: 15px;
+	background-color: rgb(255, 255, 255);
+	box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.article-one > h2:nth-of-type(2), 
+.article-two > h2:nth-of-type(2),
+.article-last > h2:nth-of-type(2) {
+	font-size: 18px;
+	color: rgb(111, 111, 111);
+}
+
+.article-one > p:nth-of-type(1), 
+.article-two > p:nth-of-type(1),
+.article-last > p:nth-of-type(1) {
+	font-size: 14px;
+	color: rgb(111, 111, 111);
+}
+
+.article-one > p:nth-of-type(2), 
+.article-one > p:nth-of-type(4),
+.article-two > p:nth-of-type(2) {
+	text-indent: 2em;
+}
+
+.article-one img, 
+.article-two img {
+	width: 30%;
+}
+
+.article-two li {
+	list-style-type: none;
+}
+
+.picture div {
+	width: 15%;
+	margin: 10px;
+	padding: 10px;
+	display: inline-block;
+	border: 1px solid black;
+	list-style-type: none;
+}
+
+.picture div p {
+	text-align: center;
+}
+
+.picture div img {
+	width: 100%;
+}
+
+.article-last table {
+	width: 100%;
+	border: 1px solid #CCC;
+	border-collapse: collapse;
+}
+
+.article-last th, 
+.article-last td {
+	padding: 5px;
+	text-align: left;
+	border: 1px solid #CCC;
+}
+
+.article-last thead th {
+	background-color: #333;
+	color: #FFF;
+}
+
+.article-last tfoot td {
+	background-color: #CCC;
+	color: #000;
+}
+
+.sidebar > h2 {
+	padding: 5px;
+	font-size: 18px;
+	border-left: 5px solid #CCC;
+}
+
+.form-body {
+	font-size: 14px;
+}
+
+.sidebar > form p {
+	font-size: 14px;
+	color: #6F6F6F;
+}
+
+.sidebar {
+	margin-top: 0px;
+	width: 380px;
+	float: right;
+}
+
+.sidebar input[type="submit"] {
+	width: 100%;
+	margin-top: 5px;
+	padding: 5px;
+	color: #FFF;
+	background-color: #3355D0;
+	border: none;
+	border-radius: 5px;
+}
+
+.sidebar textarea {
+	width: 100%;
+	height: 100px;
+	vertical-align: top;
+}
+
+.sidebar table {
+	width: 90%;
+	margin: 5px auto;
+}
+
+.sidebar td:nth-of-type(1) {
+	width: 35%;
+	padding: 5px;
+	padding-right: 15px;
+	text-align: right;
+}
+
+.footer {
+	padding: 3px;
+	background-color: #000;
+}
+
+.footer p {
+	text-align: center;
+	color: #FFF;
+}
+
+.container {
+	width: auto;
+	margin-right: 425px;
+}
+
+.wrapper {
+	width: 100%;
+}
