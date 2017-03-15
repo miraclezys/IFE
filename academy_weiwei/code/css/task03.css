@@ -1,6 +1,7 @@
 .container {
 	background-color: #eee;
 	border: 1px solid #999;
+	overflow: auto;
 }
 
 .container, 
@@ -52,6 +53,7 @@
 	margin: 10px 10px 0px 0px;
 	text-align: center;
 }
+
 
 @media screen and (max-width: 750px) {
 	.team-header, .team-er {
