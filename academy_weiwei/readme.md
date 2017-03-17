@@ -128,3 +128,34 @@
 * task05.html
 * task05.css
 
+
+---
+
+## 任务八：响应式网格（栅格化）布局
+
+### 要求
+
+[任务八：响应式网格（栅格化）布局](http://ife.baidu.com/course/detail/id/104)
+
+### 资料
+
+- [BootStrap 官网](http://getbootstrap.com/)：如果你没用过的话，至少了解一下它是做什么的
+- [Bootstrap grid examples](https://getbootstrap.com/examples/grid/)：改变浏览器宽度，查看不同类名元素的表现，理解网格系统的作用。然后，通过“审查元素”查看对应 CSS，思考这一系统是如何实现的
+- [BootStrap 带 offset 的网格系统](http://getbootstrap.com/2.3.2/scaffolding.html#gridSystem)
+- [Creating Your Own CSS Grid System](http://j4n.co/blog/Creating-your-own-css-grid-system)：你可以先自己想想怎么实现，没有思路的话看看别人的做法
+
+### 完成情况
+
+利用[BootStrap 的响应式 12 栏网格布局](http://v4-alpha.getbootstrap.com/layout/grid/)进行实现。因为每个`col`都是使用`width`设置宽度，所以添加`margin`值会导致溢出，于是在`<div>`中嵌套了`<div>`的办法实现间距效果。觉得这种办法不太好，但是目前还没有找到更好的解决办法。
+
+```html
+<div class="row">
+	<div class="col-xs-6 col-sm-4">
+    	<div></div>
+    </div>
+</div>
+```
+
+### 代码列表
+
+* task08.html
