@@ -159,3 +159,29 @@
 ### 代码列表
 
 * task08.html
+
+---
+
+## 任务十：Flexbox 布局练习
+
+### 要求
+
+[任务十：Flexbox 布局练习](http://ife.baidu.com/course/detail/id/114?t=1489816246551#learn)
+
+### 资料
+
+- [Flex 布局教程：语法篇](http://www.ruanyifeng.com/blog/2015/07/flex-grammar.html)：这个讲得更加详细易懂哦
+- [Flexbox详解](https://segmentfault.com/a/1190000002910324)：了解 Flexbox 属性的含义
+- [Flexbox——快速布局神器](http://www.w3cplus.com/css3/flexbox-basics.html)
+- [使用 CSS 弹性盒](https://developer.mozilla.org/zh-CN/docs/Web/CSS/CSS_Flexible_Box_Layout/Using_CSS_flexible_boxes)
+- [MDN flex属性](https://developer.mozilla.org/zh-CN/docs/Web/CSS/flex)
+
+### 完成情况
+
+应该基本完成要求
+
+### 代码列表
+
+HTML: task10.html
+
+CSS: task10.css
