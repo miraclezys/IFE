@@ -16,6 +16,7 @@ body {
 .content-4 {
 	padding: 20px;
 	border: 2px solid black;
+	box-sizing: border-box;
 }
 
 .content-1,
