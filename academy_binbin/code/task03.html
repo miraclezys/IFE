@@ -68,7 +68,7 @@ function sortAqiData(data) {
  * 格式见ul中的注释的部分
  */
 function render(data) {
-  var ul = document.getElementById("source");
+  var ul = document.getElementById("resort");
   data.forEach(function(x, i) {
     li = document.createElement("li");
     li.innerHTML = "第" + (i+1) + "名:" + x[0] + "：<b>" + x[1] + "</b>";
