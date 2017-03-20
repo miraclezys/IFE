@@ -51,7 +51,7 @@
 		alert(temp);
 	}
 
-	function abc (i) {
+	function onClick (i) {
 		var temp = document.getElementById("item-" + i);
 		var id = temp.id;
 		temp.addEventListener('click', function() {
@@ -64,7 +64,7 @@
 
 	function addListener () {
 		arr.forEach(function(x, i) {
-			abc(i);
+			onClick(i);
 		})
 	}
 
