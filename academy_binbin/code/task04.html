@@ -24,15 +24,27 @@
 	}
 
 	function leftIn () {
-		arr.unshift(document.getElementById("text-input").value);
-		deleteItem();
-		render();
+		value = document.getElementById("text-input").value;
+		if(value == "") {
+			alert("输入内容不能为空");
+		}
+		else {
+			arr.unshift(value);
+			deleteItem();
+			render();
+		}
 	}
 
 	function rightIn () {
-		arr.push(document.getElementById("text-input").value);
-		deleteItem();
-		render();
+		value = document.getElementById("text-input").value;
+		if(value == "") {
+			alert("输入内容不能为空");
+		}
+		else {
+			arr.push(value);
+			deleteItem();
+			render();
+		}
 	}
 
 	function leftOut () {
