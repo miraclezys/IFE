@@ -26,7 +26,10 @@
 	function leftIn () {
 		value = document.getElementById("text-input").value;
 		if(value == "") {
-			alert("输入内容不能为空");
+			alert("输入内容不能为空哦！");
+		}
+		else if (parseFloat(value).toString() == "NaN") {
+			alert("请输入数字哦！")
 		}
 		else {
 			arr.unshift(value);
