@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task04</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/task04.css">
+</head>
+<body>
+	<div>
+		<input type="text" id="text-input">
+		<button id="left-in">左侧入</button>
+		<button id="right-in">右侧入</button>
+		<button id="left-out">左侧出</button>
+		<button id="right-out">右侧出</button>
+		<div id="list"></div>
+	</div>
+</body>
+<script type="text/javascript">
+	var arr = [];
+
+	function deleteItem () {
+		list = document.getElementById("list");
+		list.innerHTML = "";
+	}
+
+	function leftIn () {
+		arr.unshift(document.getElementById("text-input").value);
+		deleteItem();
+		render();
+	}
+
+	function rightIn () {
+		arr.push(document.getElementById("text-input").value);
+		deleteItem();
+		render();
+	}
+
+	function leftOut () {
+		temp = arr[0];
+		arr.shift();
+		deleteItem();
+		render();
+		alert(temp);
+	}
+
+	function rightOut () {
+		temp = arr[arr.length-1];
+		arr.pop();
+		deleteItem();
+		render();
+		alert(temp);
+	}
+
+	function abc (i) {
+		var temp = document.getElementById("item-" + i);
+		var id = temp.id;
+		temp.addEventListener('click', function() {
+			num = id.substr(5);
+			arr.splice(num, 1);
+			deleteItem();
+			render();
+		});
+	}
+
+	function addListener () {
+		arr.forEach(function(x, i) {
+			abc(i);
+		})
+	}
+
+	function render () {
+		list = document.getElementById("list");
+		arr.forEach(function(x, i) {
+			span = document.createElement("button");
+			span.innerHTML = x;
+			span.id = "item-" + i;
+			list.appendChild(span);
+		});
+		addListener ();
+	}	
+
+	function init () {
+		var button1 = document.getElementById("left-in");
+		button1.addEventListener('click', leftIn);
+		var button2 = document.getElementById("right-in");
+		button2.addEventListener('click', rightIn);
+		var button3 = document.getElementById("left-out");
+		button3.addEventListener('click', leftOut);
+		var button4 = document.getElementById("right-out");
+		button4.addEventListener('click', rightOut);
+	}
+	
+	init();
+	
+</script>
+</html>

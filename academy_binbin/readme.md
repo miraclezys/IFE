@@ -58,3 +58,23 @@
 ### 代码列表
 
 - task03.html
+
+---
+
+## 任务四：基础JavaScript练习（一）
+
+### 要求
+
+[任务四：基础JavaScript练习（一）](http://ife.baidu.com/course/detail/id/103)
+
+### 资料
+
+- [MDN JavaScript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
+
+### 完成情况
+
+应该基本完成要求。对于局部变量和全局变量的作用域有了进一步的理解，之后再进行总结。
+
+### 代码列表
+
+- task04.html
