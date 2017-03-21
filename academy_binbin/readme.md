@@ -78,3 +78,23 @@
 ### 代码列表
 
 - task04.html
+
+---
+
+## 任务五：基础JavaScript练习（二）
+
+### 要求
+
+[任务五：基础JavaScript练习（二）](http://ife.baidu.com/course/detail/id/105)
+
+### 资料
+
+- [MDN JavaScript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
+
+### 完成情况
+
+应该基本完成要求，排序实现的是冒泡排序。
+
+### 代码列表
+
+* task05.html

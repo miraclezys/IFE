@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task05</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/task04.css">
+</head>
+<body>
+	<div>
+		<input type="text" id="text-input">
+		<button id="left-in">左侧入</button>
+		<button id="right-in">右侧入</button>
+		<button id="left-out">左侧出</button>
+		<button id="right-out">右侧出</button>
+		<button id="sort-as">升序排列</button>
+		<button id="sort-de">降序排列</button>
+
+		<div id="list"></div>
+	</div>
+</body>
+<script type="text/javascript">
+	var arr = [];
+
+	function deleteItem () {
+		list = document.getElementById("list");
+		list.innerHTML = "";
+	}
+
+	function leftIn () {
+		value = document.getElementById("text-input").value;
+		if(value == "") {
+			alert("输入内容不能为空哦！");
+		}
+		else if (parseFloat(value).toString() == "NaN"
+			|| (parseInt(value) < 10) || (parseInt(value) > 100)) {
+			alert("请输入10-100的数字哦！")
+		}
+		else if (arr.length >= 60) {
+			alert("输入的个数已经超出范围啦，可以删掉一些元素再输入哦！");
+		}
+		else {
+			arr.unshift(value);
+			deleteItem();
+			render();
+		}
+	}
+
+	function rightIn () {
+		value = document.getElementById("text-input").value;
+		if(value == "") {
+			alert("输入内容不能为空");
+		}
+		else if (parseFloat(value).toString() == "NaN"
+			|| (parseInt(value) < 10) || (parseInt(value) > 100)) {
+			alert("请输入10-100的数字哦！")
+		}
+		else if (arr.length >= 60) {
+			alert("输入的个数已经超出范围啦，可以删掉一些元素再输入哦！");
+		}
+		else {
+			arr.push(value);
+			deleteItem();
+			render();
+		}
+	}
+
+	function leftOut () {
+		temp = arr[0];
+		arr.shift();
+		deleteItem();
+		render();
+		alert(temp);
+	}
+
+	function rightOut () {
+		temp = arr[arr.length-1];
+		arr.pop();
+		deleteItem();
+		render();
+		alert(temp);
+	}
+
+	function onClick (i) {
+		var temp = document.getElementById("item-" + i);
+		var id = temp.id;
+		temp.addEventListener('click', function() {
+			num = id.substr(5);
+			arr.splice(num, 1);
+			deleteItem();
+			render();
+		});
+	}
+
+	function addListener () {
+		arr.forEach(function(x, i) {
+			onClick(i);
+		})
+	}
+
+	function render () {
+		list = document.getElementById("list");
+		arr.forEach(function(x, i) {
+			span = document.createElement("button");
+			span.id = "item-" + i;
+			span.style.height = x + "px";
+			list.appendChild(span);
+		});
+		addListener ();
+	}	
+
+	function sortAs () {
+		for(var i=0; i<arr.length; i++) {
+			for (var j=i; j<arr.length; j++) {
+				if(parseFloat(arr[i]) > parseFloat(arr[j])) {
+					temp = arr[i];
+					arr[i] = arr[j];
+					arr[j] = temp;
+				}
+			}
+		}
+		deleteItem();
+		render();
+	}
+
+	function sortDe () {
+		for(var i=0; i<arr.length; i++) {
+			for (var j=i; j<arr.length; j++) {
+				if(parseFloat(arr[i]) < parseFloat(arr[j])) {
+					temp = arr[i];
+					arr[i] = arr[j];
+					arr[j] = temp;
+				}
+			}
+		}
+		deleteItem();
+		render();
+	}
+
+	function init () {
+		var button1 = document.getElementById("left-in");
+		button1.addEventListener('click', leftIn);
+		var button2 = document.getElementById("right-in");
+		button2.addEventListener('click', rightIn);
+		var button3 = document.getElementById("left-out");
+		button3.addEventListener('click', leftOut);
+		var button4 = document.getElementById("right-out");
+		button4.addEventListener('click', rightOut);
+		var button5 = document.getElementById("sort-as");
+		button5.addEventListener('click', sortAs);
+		var button6 = document.getElementById("sort-de");
+		button6.addEventListener('click', sortDe);
+	}
+	
+	init();
+	
+</script>
+</html>
