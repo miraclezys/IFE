@@ -98,3 +98,24 @@
 ### 代码列表
 
 * task05.html
+
+---
+
+## 任务六：基础JavaScript练习（三）
+
+### 要求
+
+[任务六：基础JavaScript练习（三）](http://ife.baidu.com/course/detail/id/107)
+
+### 资料
+
+* [MDN JavaScript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
+
+### 完成情况
+
+应该基本完成要求，在任务四的基础上加入搜索匹配功能。
+
+代码列表
+
+* task06.html
+* task06.js
