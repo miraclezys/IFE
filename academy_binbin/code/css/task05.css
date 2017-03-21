@@ -1,0 +1,27 @@
+body > div {
+	margin-top: 100px;
+	text-align: center;
+}
+
+button {
+	padding: 5px;
+	background: none;
+	border-radius: 5px;
+}
+
+#list {
+	margin-top: 20px;
+	height: 110px;
+	display: flex;
+	align-items: flex-end;
+	justify-content: center;
+}
+
+#list > button {
+	width: 15px;
+	padding: 0px;
+	margin-left: 2px;
+	margin-right: 2px;
+	border: 1px solid black;
+	border-radius: 0px;
+}
