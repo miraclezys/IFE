@@ -1,0 +1,42 @@
+form {
+	width: 40%;
+	margin: 80px auto;
+}
+
+input[type="text"] {
+	width: 200px;
+	margin-left: 20px;
+	margin-right: 20px;
+	padding: 5px;
+	font-size: 16px;
+	border-radius: 5px;
+	border: 1px solid #B6B6B6;
+}
+
+input:focus {
+	outline: none;
+}
+
+input[type="button"] {
+	width: 60px;
+	padding: 5px;
+	background: #2F79BA;
+	color: #FFF;
+	font-size: 16px;
+	border: none;
+	border-radius: 5px;
+}
+
+p {
+	margin: -3px 20px 20px 20px;
+	font-size: 14px;
+	color: #B6B6B6;
+}
+
+.warning {
+	color: #DC0115;
+}
+
+.good {
+	color: #61BE49;
+}
