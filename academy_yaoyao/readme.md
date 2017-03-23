@@ -38,3 +38,19 @@ button.addEventListener('click', function() {
 * task01.html
 
 
+---
+
+## 任务二：表单（二）多个表单项的动态校验
+
+### 要求
+
+[任务二：表单（二）多个表单项的动态校验](http://ife.baidu.com/course/detail/id/101?t=1490236190163#learn)
+
+### 完成情况
+
+应该基本符合要求
+
+### 代码列表
+
+* task02.html
+* task02.js
