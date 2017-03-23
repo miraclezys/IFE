@@ -1,0 +1,39 @@
+body > div {
+	width: 40%;
+	margin: 10% auto;
+}
+
+input[type="radio"]:nth-of-type(2) {
+	margin-left: 20%;
+}
+
+#in-school {
+	margin-top: 20px;
+}
+
+#area {
+	width: 20%;
+	margin-left: 20px;
+	margin-right: 20px;
+	
+}
+
+#school {
+	width: 30%;
+	padding: 5px;
+	border-radius: 3px;
+}
+
+#area, 
+#school {
+	padding: 5px;
+	border-radius: 3px;
+}
+
+input[type="text"] {
+	width: 50%;
+	margin-top: 20px;
+	margin-left: 20px;
+	border-radius: 5px;
+	padding: 5px;
+}
