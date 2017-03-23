@@ -87,8 +87,8 @@ radio.forEach(function(x) {
 
 ```jsx
 <select id="area">
-		<option value="beijing" checked="checked">北京</option>
-		<option value="guangzhou">广州</option>
+	<option value="beijing" checked="checked">北京</option>
+	<option value="guangzhou">广州</option>
 </select>
 			
 var select1 = document.getElementById("area");
