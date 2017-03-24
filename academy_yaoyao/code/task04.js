@@ -1,5 +1,4 @@
 var block = {
-	direction: 'top',
 	dir_pos: 0,
 	left_pos: 245,
 	top_pos: -243.5,
@@ -9,8 +8,9 @@ var block = {
 
 function go () {
 	var mblock = document.getElementById('block');
-	switch(block.direction){
-		case 'top':
+
+	switch(block.dir_pos){
+		case 0:
 			if((block.top - 1) == 0) {
 				alert("超出界了哦( ⊙ o ⊙ )！");
 			}
@@ -19,7 +19,7 @@ function go () {
 				block.top -= 1;
 			}
 			break;
-		case 'down':
+		case 180:
 			if((block.top + 1) == 11) {
 				alert("超出界了哦( ⊙ o ⊙ )！");
 			}
@@ -28,7 +28,7 @@ function go () {
 				block.top += 1;
 			}
 			break;
-		case 'left':
+		case 270:
 			if((block.left - 1) == 0) {
 				alert("超出界了哦( ⊙ o ⊙ )！");
 			}
@@ -37,7 +37,7 @@ function go () {
 				block.left -= 1;
 			}
 			break;
-		case 'right':
+		case 90:
 			if((block.left + 1) == 11) {
 				alert("超出界了哦( ⊙ o ⊙ )！");
 			}
@@ -56,70 +56,19 @@ function go () {
 
 function tunLef () {
 	var mblock = document.getElementById('block');
-	switch(block.direction) {
-		case 'top':
-			block.direction = 'left';
-			break;
-		case 'left':
-			block.direction = 'down';
-			break;
-		case 'down':
-			block.direction = 'right';
-			break;
-		case 'right':
-			block.direction = 'top';
-			break;
-		default:
-			break;
-	}
-
-	block.dir_pos = (block.dir_pos - 90) % 360;
+	block.dir_pos = (block.dir_pos - 90 + 360) % 360;
 	mblock.style.transform = "rotate(" + block.dir_pos + "deg)";
 }
 
 function tunRig () {
 	var mblock = document.getElementById('block');
-	switch(block.direction) {
-		case 'top':
-			block.direction = 'right';
-			break;
-		case 'right':
-			block.direction = 'down';
-			break;
-		case 'down':
-			block.direction = 'left';
-			break;
-		case 'left':
-			block.direction = 'top';
-			break;
-		default:
-			break;
-	}
-
-	block.dir_pos = (block.dir_pos + 90) % 360;
+	block.dir_pos = (block.dir_pos + 90 + 360) % 360;
 	mblock.style.transform = "rotate(" + block.dir_pos + "deg)";
 }
 
 function tunBac () {
 	var mblock = document.getElementById('block');
-	switch(block.direction) {
-		case 'top':
-			block.direction = 'down';
-			break;
-		case 'right':
-			block.direction = 'left';
-			break;
-		case 'down':
-			block.direction = 'top';
-			break;
-		case 'left':
-			block.direction = 'right';
-			break;
-		default:
-			break;
-	}
-
-	block.dir_pos = (block.dir_pos + 180) % 360;
+	block.dir_pos = (block.dir_pos + 180 + 360) % 360;
 	mblock.style.transform = "rotate(" + block.dir_pos + "deg)";
 }
 
