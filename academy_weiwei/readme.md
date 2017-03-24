@@ -15,6 +15,10 @@
 
 虽然没有与示例的效果完全一致，但具体结构相近。对HTML有了大体的了解，特别是对不同标签所代表的含义有了更深入的理解。
 
+### 效果预览
+
+[任务一：零基础HTML编码](https://miraclezys.github.io/IFE/academy_weiwei/code/task01.html)
+
 ### 代码列表
 
 * task01.html
@@ -35,6 +39,10 @@
 ### 完成情况
 
 在任务一的基础上编写CSS代码过程中，发现任务一编写的HTML代码的结构不够完善，并且发现部分使用的标签不符合语义，所以也对基于任务一中的HTML代码进行了更改。
+
+### 效果预览
+
+[任务二：零基础HTML及CSS编码（一）](https://miraclezys.github.io/IFE/academy_weiwei/code/task02.html)
 
 ###  代码列表
 
@@ -81,6 +89,10 @@
 
 加入了响应式设计，即当屏幕大小小于某个值时，取消浮动。但是只是简单的应用了一下，对响应式布局设计还不了解，之后会认真学习这方面的知识。
 
+### 效果预览
+
+[任务三：三栏式布局](https://miraclezys.github.io/IFE/academy_weiwei/code/task03.html)
+
 ### 代码列表
 
 * task03.html
@@ -105,6 +117,10 @@
 
 应该基本符合要求。觉得对于垂直居中还要继续深入了解
 
+### 效果预览
+
+[任务四：定位和居中问题](https://miraclezys.github.io/IFE/academy_weiwei/code/task04.html)
+
 ### 代码列表
 
 * task04.html
@@ -122,6 +138,10 @@
 ### 完成情况
 
 基本符合要求
+
+### 效果预览
+
+[任务五：零基础HTML及CSS编码（二）](https://miraclezys.github.io/IFE/academy_weiwei/code/task05.html)
 
 ### 代码列表
 
@@ -156,6 +176,10 @@
 </div>
 ```
 
+### 效果预览
+
+[任务八：响应式网格（栅格化）布局](https://miraclezys.github.io/IFE/academy_weiwei/code/task08.html)
+
 ### 代码列表
 
 * task08.html
@@ -179,6 +203,10 @@
 ### 完成情况
 
 应该基本完成要求
+
+### 效果预览
+
+[任务十：Flexbox 布局练习](https://miraclezys.github.io/IFE/academy_weiwei/code/task10.html)
 
 ### 代码列表
 
