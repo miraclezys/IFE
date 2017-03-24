@@ -17,7 +17,6 @@ function go () {
 			else {
 				block.top_pos -= 40;
 				block.top -= 1;
-				mblock.style.top = block.top_pos + "px";
 			}
 			break;
 		case 'down':
@@ -27,7 +26,6 @@ function go () {
 			else {
 				block.top_pos += 40;
 				block.top += 1;
-				mblock.style.top = block.top_pos + "px";
 			}
 			break;
 		case 'left':
@@ -37,7 +35,6 @@ function go () {
 			else {
 				block.left_pos -= 40;
 				block.left -= 1;
-				mblock.style.left = block.left_pos + "px";
 			}
 			break;
 		case 'right':
@@ -47,12 +44,14 @@ function go () {
 			else {
 				block.left_pos += 40;
 				block.left += 1;
-				mblock.style.left = block.left_pos + "px";
 			}
 			break;
 		default:
 			break;
 	}
+
+	mblock.style.top = block.top_pos + "px";
+	mblock.style.left = block.left_pos + "px";
 }
 
 function tunLef () {
@@ -74,13 +73,7 @@ function tunLef () {
 			break;
 	}
 
-	if ((block.dir_pos - 90) == -360) {
-		block.dir_pos = 0;
-	}
-	else {
-		block.dir_pos -= 90;
-	}
-	
+	block.dir_pos = (block.dir_pos - 90) % 360;
 	mblock.style.transform = "rotate(" + block.dir_pos + "deg)";
 }
 
@@ -103,13 +96,7 @@ function tunRig () {
 			break;
 	}
 
-	if ((block.dir_pos + 90) == 360) {
-		block.dir_pos = 0;
-	}
-	else {
-		block.dir_pos += 90;
-	}
-	
+	block.dir_pos = (block.dir_pos + 90) % 360;
 	mblock.style.transform = "rotate(" + block.dir_pos + "deg)";
 }
 
@@ -132,13 +119,7 @@ function tunBac () {
 			break;
 	}
 
-	if ((block.dir_pos + 180) == 360) {
-		block.dir_pos = 0;
-	}
-	else {
-		block.dir_pos += 180;
-	}
-	
+	block.dir_pos = (block.dir_pos + 180) % 360;
 	mblock.style.transform = "rotate(" + block.dir_pos + "deg)";
 }
 
