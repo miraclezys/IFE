@@ -126,7 +126,7 @@ var value = select1.options[select1.selectedIndex].value;
 
 ### 效果预览
 
-[任务五：听指令的小方块（一）](https://miraclezys.github.io/IFE/academy_yaoyao/code/task04.html)
+[任务四：听指令的小方块（一）](https://miraclezys.github.io/IFE/academy_yaoyao/code/task04.html)
 
 ### 代码列表
 
