@@ -1,0 +1,93 @@
+.container {
+	width: 600px;
+	margin: 30px auto;
+}
+
+.order-1 {
+	width: 440px;
+	margin-bottom: 5px;
+	padding-left: 43px;
+}
+
+.order-1 th {
+	width: 40px;
+	padding: 0;
+	text-align: center;
+}
+
+.order-2 {
+	height: 400px;
+	float: left;
+	margin-top: 0px;
+	margin-right: 20px;
+}
+
+.order-2 th {
+	height: 38px;
+	padding: 0px;
+}
+
+.chessboard {
+	padding: 0;
+	border: 2px solid black;
+	border-collapse: collapse;
+}
+
+.chessboard td {
+	width: 40px;
+	height: 40px;
+	padding: 0;
+	box-sizing: border-box;
+	border: 1px solid #D9D9D9;
+	border-collapse: collapse;
+}
+
+.action {
+	margin-top: 15px;
+	text-align: center;
+}
+
+#input-action {
+	padding: 3px;
+	border-radius: 5px;
+}
+
+#button {
+	width: 50px;
+	padding: 3px;
+	background: none;
+	border-radius: 5px;
+}
+
+#block {
+	width: 40px;
+	height: 40px;
+	position: relative;
+	top: -243.5px;
+	left: 245px;
+}
+
+.blue {
+	width: 40px;
+	height: 10px;
+	background-color: blue;
+}
+
+.red {
+	width: 40px;
+	height: 30px;
+	background-color: red;
+}
+
+.rule {
+	width: 520px;
+	margin: 0 auto;
+	margin-top: -50px;
+	padding: 15px;
+	font-size: 14px;
+	border: 2px solid black;
+}
+
+.rule tr > td:nth-of-type(1) {
+	padding-right: 50px;
+}

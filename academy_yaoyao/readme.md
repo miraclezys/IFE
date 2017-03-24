@@ -101,3 +101,20 @@ var value = select1.options[select1.selectedIndex].value;
 
 * task03.html
 * task03.js
+
+---
+
+## 任务四：听指令的小方块（一）
+
+### 要求
+
+[任务四：听指令的小方块（一）](http://ife.baidu.com/course/detail/id/109?t=1490331957938#learn)
+
+### 完成情况
+
+应该基本符合要求
+
+### 代码列表
+
+* task04.html
+* task04.js
