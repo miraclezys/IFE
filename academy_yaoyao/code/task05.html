@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Task05</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" type="text/css" href="./css/task05.css">
+</head>
+<body>
+	<div class="container">
+		<table class="order-1">
+			<tr>
+				<th>1</th>
+				<th>2</th>
+				<th>3</th>
+				<th>4</th>
+				<th>5</th>
+				<th>6</th>
+				<th>7</th>
+				<th>8</th>
+				<th>9</th>
+				<th>10</th>
+			</tr>
+		</table>
+		<table class="order-2">
+			<tr><th>1</th></tr>
+			<tr><th>2</th></tr>
+			<tr><th>3</th></tr>
+			<tr><th>4</th></tr>
+			<tr><th>5</th></tr>
+			<tr><th>6</th></tr>
+			<tr><th>7</th></tr>
+			<tr><th>8</th></tr>
+			<tr><th>9</th></tr>
+			<tr><th>10</th></tr>
+		</table>
+		<table class="chessboard">
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+		<div class="action">
+			<input id="input-action" type="text" />
+			<input id="button" type="button" value="执行" />
+		</div>
+		<div id="block">
+			<div class="blue"></div>
+			<div class="red"></div>
+		</div>
+	</div>
+	<div class="rule">
+		怎么操作呢？输入如下指令就可以操作啦!
+		<table>
+			<tr>
+				<td>GO：向蓝色边所面向的方向前进一格</td>
+				<td>TUN LEF：向左转（逆时针旋转90度</td>
+			</tr>
+			<tr>
+				<td>TUN RIG：向右转（顺时针旋转90度</td>
+				<td>TUN BAC：向右转（旋转180度）</td>
+			</tr>
+			<tr>
+				<td>TRA LEF：向屏幕的左侧移动一格，方向不变</td>
+				<td>TRA TOP：向屏幕的上面移动一格，方向不变</td>
+			</tr>
+			<tr>
+				<td>TRA RIG：向屏幕的右侧移动一格，方向不变</td>
+				<td>TRA BOT：向屏幕的下面移动一格，方向不变</td>
+			</tr>
+			<tr>
+				<td>MOV LEF：方向转向屏幕左侧，并向屏幕的左侧移动一格</td>
+				<td>MOV TOP：方向转向屏幕上面，向屏幕的上面移动一格</td>
+			</tr>
+			<tr>
+				<td>MOV RIG：方向转向屏幕右侧，向屏幕的右侧移动一格</td>
+				<td>MOV BOT：方向转向屏幕下面，向屏幕的下面移动一格</td>
+			</tr>
+		</table>      
+	</div>
+</body>
+<script type="text/javascript" src="./task05.js"></script>
+</html>

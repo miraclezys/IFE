@@ -31,7 +31,11 @@ button.addEventListener('click', function() {
 });
 ```
 
-中文字符长度为2使用的是正则表达式实现的，如果直接使用`string`的`length`属性计算，一个中文字符长度为1.
+中文字符长度为2使用的是正则表达式实现的，如果直接使用`string`的`length`属性计算，一个中文字符长度为1。
+
+### 效果预览
+
+[任务一：表单（一）单个表单项的检验](https://miraclezys.github.io/IFE/academy_yaoyao/code/task01.html)
 
 ### 代码列表
 
@@ -49,6 +53,10 @@ button.addEventListener('click', function() {
 ### 完成情况
 
 应该基本符合要求
+
+### 效果预览
+
+[任务二：表单（二）多个表单项的动态校验](https://miraclezys.github.io/IFE/academy_yaoyao/code/task02.html)
 
 ### 代码列表
 
@@ -95,7 +103,9 @@ var select1 = document.getElementById("area");
 var value = select1.options[select1.selectedIndex].value;
 ```
 
+### 效果预览
 
+[任务三：表单（三）联动](https://miraclezys.github.io/IFE/academy_yaoyao/code/task03.html)
 
 ### 代码列表
 
@@ -114,7 +124,32 @@ var value = select1.options[select1.selectedIndex].value;
 
 应该基本符合要求
 
+### 效果预览
+
+[任务五：听指令的小方块（一）](https://miraclezys.github.io/IFE/academy_yaoyao/code/task04.html)
+
 ### 代码列表
 
 * task04.html
 * task04.js
+
+---
+
+## 任务五：听指令的小方块（二）
+
+### 要求
+
+[任务五：听指令的小方块（二）](http://ife.baidu.com/course/detail/id/112?t=1490357899570#learn)
+
+### 完成情况
+
+应该基本符合要求
+
+### 效果预览
+
+[任务五：听指令的小方块（二）](https://miraclezys.github.io/IFE/academy_yaoyao/code/task05.html)
+
+### 代码列表
+
+* task05.html
+* task05.js
