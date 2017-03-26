@@ -1,0 +1,64 @@
+html, body {
+	width: 100%;
+	height: 100%;
+	margin: 0;
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	background-image: url("https://raw.githubusercontent.com/miraclezys/IFE/master/academy_yaoyao/image/background.jpg");
+}
+
+.container > input {
+	width: 300px;
+	height: 100px;
+	position: fixed;
+	top: 30%;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	border: 1px solid black;
+	font-size: 16px;
+}
+
+#background {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(171, 171, 171, 0.5);
+}
+
+#pop-up {
+	width: 400px;
+	height: 200px;
+	background-color: #FFF;
+	position: fixed;
+	top: 20%;
+	left: 0;
+	right: 0;
+	margin: 50px auto;
+	border: 1px solid black;
+}
+
+.pop-title {
+	padding: 10px;
+	background-color: #E0E0E0;
+	border-bottom: 1px solid black;
+}
+
+.pop-body {
+	height: 53%;
+	padding: 10px;
+}
+
+.pop-footer {
+	margin-right: 10px;
+	margin-bottom: 10px;
+	float: right;
+}
+
+#pop-up input[type="button"] {
+	width: 80px;
+	height: 25px;
+	border: 1px solid black;
+}

@@ -153,3 +153,96 @@ var value = select1.options[select1.selectedIndex].value;
 
 * task05.html
 * task05.js
+
+
+
+
+
+div的父元素没有撑满，body和html都要100%
+
+```css
+html,body{
+    height: 100%;
+    width: 100%;
+}
+```
+
+---
+
+## 任务六：UI组件之浮出层
+
+### 要求
+
+[任务六：UI组件之浮出层](http://ife.baidu.com/course/detail/id/115?t=1490490748008#learn)
+
+### 完成情况
+
+实现点击浮出层`确定`或`取消`按钮，或者点击浮出层以外的部分，关闭浮出层。实现浮出层可以通过鼠标拖拽移动。
+
+拖拽移动效果部分变量解释：
+
+![img](https://raw.githubusercontent.com/miraclezys/IFE/master/academy_yaoyao/image/jiexi.png)
+
+>  橙色的箭头代表鼠标
+
+* `clientX `事件属性返回当事件被触发时鼠标指针向对于浏览器页面（或客户区）的水平坐标。客户区指的是当前窗口。不考虑窗口的滚动。
+* `clientY `事件属性返回当事件被触发时鼠标指针向对于浏览器页面（客户区）的垂直坐标。
+* `offsetLeft`是指返回当前元素左上角相对于  [`HTMLElement.offsetParent`](https://developer.mozilla.org/zh-CN/docs/Web/API/HTMLElement/offsetParent) 节点（父元素）的左边界偏移的像素值
+* `offsetTop`是指返回当前元素左上角相对于其 [`offsetParent`](https://developer.mozilla.org/zh-CN/docs/Web/API/Element/offsetParent) 元素的顶部的距离。
+* `offsetWidth`返回一个元素的布局宽度(width+padding+border)
+* `offsetHeight`返回一个元素的布局高度(height+padding+border)
+* `document.body.clientWidth `是指`<body>`元素的宽度，即网页可见区域宽度
+* `document.body.clientHeight `是指`<body>`元素的高度，即网页可见区域高度
+
+
+
+运算一下：
+
+变量`x`指的是当前鼠标指针距离小窗口左边界的距离
+
+```javascript
+var x = event.clientX - popUp.offsetLeft;
+```
+
+变量`y`指的是当前鼠标指针距离小窗口上边界的距离
+
+```javascript
+var y = event.clientY = popUp.offsetTop;
+```
+
+变量`left`指的是小窗口距离`<body>`元素，即网页可见区域左边界（可暂时通俗理解为屏幕左边界）的距离
+
+```javascript
+var left = event.clientX - x;	
+```
+
+变量`top`指的是小窗口距离`<body>`元素，即网页可见区域上边界（不包括工具栏）的距离
+
+```javascript
+var top = event.clientY - y;
+```
+
+所以我们通过计算得到的`left`和`top`的值就可以作为小窗口`pop-up`的`.style.left`和`.style.top`的值，从而在拖动鼠标的时候，可以实时更新小窗口的值，从而实现小窗口可拖拽的效果。
+
+不过要记得判断`left`和`top`的值是否超出窗口的值：
+
+```javascript
+if(left < 0) {
+	left = 0;
+}
+else if(left > document.body.clientWidth - popUp.offsetWidth) {
+	left = document.body.clientWidth - popUp.offsetWidth;
+}
+
+if(top < 0) {
+	top = 0;
+}
+else if(top > document.body.clientHeight - popUp.offsetHeight) {
+	top = document.body.clientHeight - popUp.offsetHeight;
+}
+```
+
+### 代码列表
+
+* task06.html
+* task06.js
