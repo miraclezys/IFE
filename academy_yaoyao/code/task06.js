@@ -3,7 +3,7 @@ function drag () {
 
 	popUp.onmousedown = function(event) {
 		var x = event.clientX - popUp.offsetLeft;
-		var y = event.clientY = popUp.offsetTop;
+		var y = event.clientY - popUp.offsetTop;
 		
 		document.onmousemove = function(event) {
 			var left = event.clientX - x;
@@ -16,7 +16,7 @@ function drag () {
 			else if(left > document.body.clientWidth - popUp.offsetWidth) {
 				left = document.body.clientWidth - popUp.offsetWidth;
 			}
-			
+
 			if(top < 0) {
 				top = 0;
 			}
