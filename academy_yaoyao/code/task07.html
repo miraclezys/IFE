@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Task07</title>
+	<link rel="stylesheet" type="text/css" href="./css/task07.css">
+</head>
+<body>
+	<form class="input">
+		<table>
+			<tr>
+				<td><label for="name">姓名</label></td>
+				<td><input type="text" id="name" /></td>
+			</tr>
+			<tr>
+				<td><label for="chinese">语文成绩</label></td>
+				<td><input type="text" id="chinese" /></td>
+			</tr>
+			<tr>
+				<td><label for="math">数学成绩</label></td>
+				<td><input type="text" id="math" /></td>
+			</tr>
+			<tr>
+				<td><label for="english">英语成绩</label></td>
+				<td><input type="text" id="english" /></td>
+			</tr>
+		</table>
+		<input type="button" id="submit" value="提交">
+		<p>填写以上数据，就可以在下面的表格中呈现哦。点击“成绩”旁边的按钮可以对成绩进行排序哦，第一次是降序，第二次是升序，以此类推</p>
+
+	</form>
+
+	<table class="result">
+		<tr>
+			<th>姓名</th>
+			<th>语文<input type="button" id="sort-chinese"></th>
+			<th>数学<input type="button" id="sort-math"></th>
+			<th>英语<input type="button" id="sort-english"></th>
+			<th>总分<input type="button" id="sort-sum"></th>
+		</tr>
+		<tbody id="render">
+		<tr>
+			<td>小明</td>
+			<td>80</td>
+			<td>30</td>
+			<td>40</td>
+			<td>150</td>
+		</tr>
+		</tbody>
+	</table>
+</body>
+<script type="text/javascript" src="./task07.js"></script>
+</html>

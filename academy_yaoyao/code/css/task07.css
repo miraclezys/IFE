@@ -1,0 +1,66 @@
+form {
+	width: 40%;
+	text-align: center;
+	margin: 0 auto;
+	margin-top: 30px;
+	border: 2px solid #5C5C5C;
+}
+
+form table {
+	margin: 10px auto;
+}
+
+.input tr > td:nth-of-type(1) {
+	text-align: right;
+	padding: 10px;
+	padding-right: 20px;
+	
+} 
+
+.input input[type="text"] {
+	padding: 5px;
+	border-radius: 5px;
+}
+
+.input input[type="button"] {
+	width: 60px;
+	background: none;
+	border-radius: 10px;
+	padding: 5px;
+}
+
+.input p {
+	font-size: 12px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.result {
+	width: 40%;
+	margin: 10px auto;
+	border: 2px solid #D5D5D5;
+	border-collapse: collapse;
+	text-align: center;
+}
+
+.result td, .result th{
+	padding: 5px;
+	border: 2px solid #D5D5D5;
+	border-collapse: collapse;
+}
+
+.result th {
+	background-color: #5C5C5C;
+	color: white;
+}
+
+.result input[type="button"] {
+	display: inline-block;
+	margin-top: 3px;
+	margin-left: 3px;
+	background: none;
+	background-repeat: no-repeat;
+	background-image: url(https://raw.githubusercontent.com/miraclezys/IFE/master/academy_yaoyao/image/sort.png);
+	background-size: cover;
+	border: none;
+}
