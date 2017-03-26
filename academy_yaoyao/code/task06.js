@@ -4,6 +4,7 @@ function drag () {
 	popUp.onmousedown = function(event) {
 		var x = event.clientX - popUp.offsetLeft;
 		var y = event.clientY - popUp.offsetTop;
+		this.style.cursor = "move";
 		
 		document.onmousemove = function(event) {
 			var left = event.clientX - x;
