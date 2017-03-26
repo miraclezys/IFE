@@ -261,7 +261,9 @@ else if(top > document.body.clientHeight - popUp.offsetHeight) {
 
 ### 完成情况
 
-应该基本符合要求
+应该基本符合要求。
+
+可以输入学生姓名，语文、数学、英语成绩，可以选择根据各科目成绩以及总成绩进行排序。
 
 ### 效果预览
 
