@@ -267,7 +267,7 @@ else if(top > document.body.clientHeight - popUp.offsetHeight) {
 
 ### 效果预览
 
-[任务七：UI组件之排序表格](https://miraclezys.github.io/IFE/academy_yaoyao/code/task06.html)
+[任务七：UI组件之排序表格](https://miraclezys.github.io/IFE/academy_yaoyao/code/task07.html)
 
 ### 代码列表
 
