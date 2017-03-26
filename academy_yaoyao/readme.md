@@ -242,6 +242,10 @@ else if(top > document.body.clientHeight - popUp.offsetHeight) {
 }
 ```
 
+### 效果预览
+
+[任务六：UI组件之浮出层](https://miraclezys.github.io/IFE/academy_yaoyao/code/task06.html)
+
 ### 代码列表
 
 * task06.html
