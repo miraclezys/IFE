@@ -250,3 +250,24 @@ else if(top > document.body.clientHeight - popUp.offsetHeight) {
 
 * task06.html
 * task06.js
+
+---
+
+## 任务七：UI组件之排序表格
+
+### 要求
+
+[任务七：UI组件之排序表格](http://ife.baidu.com/course/detail/id/118)
+
+### 完成情况
+
+应该基本符合要求
+
+### 效果预览
+
+[任务七：UI组件之排序表格](https://miraclezys.github.io/IFE/academy_yaoyao/code/task06.html)
+
+### 代码列表
+
+* task07.html
+* task07.js
