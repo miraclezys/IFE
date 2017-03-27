@@ -1,0 +1,95 @@
+.container-1, .container-2{
+	width: 440px;
+	margin: 100px auto;
+	padding: 20px;
+	padding-top: 0px;
+	border: 2px solid black;
+}
+
+input[type="radio"], input[type="checkbox"]{
+	display: none;
+}
+
+.container-1 input[type="radio"] + label {
+	display: inline-block;
+}
+
+.container-1 input[type="radio"] + label:before {
+	content: " ";
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	vertical-align: bottom;
+	background: url("https://raw.githubusercontent.com/miraclezys/IFE/master/academy_nuomi/image/radio.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.container-1 input[type="radio"]:checked + label:before{
+	background-position: 0% 100%;
+}
+
+.container-1 input[type="checkbox"] + label {
+	display: inline-block;
+	padding-right: 0;
+}
+
+.container-1 input[type="checkbox"] + label:before {
+	content: " ";
+	display: inline-block;
+	width: 25px;
+	height: 25px;
+	vertical-align: bottom;
+	background: url("https://raw.githubusercontent.com/miraclezys/IFE/master/academy_nuomi/image/checkbox.png");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+
+.container-1 input[type="checkbox"]:checked + label:before {
+	background-position: 0% 100%;
+}
+
+.container-1 label , .container-2 label{
+	padding-right: 20px;
+}
+
+.container-2 input[type="radio"] + label {
+	display: inline-block;
+}
+
+.container-2 input[type="radio"] + label:before {
+	content: " ";
+	display: inline-block;
+	box-sizing: border-box;
+	width: 18px;
+	height: 18px;
+	margin-right: 5px;
+	vertical-align: bottom;
+	border: 1.5px solid #AAAAAA;
+	border-radius: 50%; 
+}
+
+.container-2 input[type="radio"]:checked + label:before {
+	border: 3px solid #CDCBCB;
+	background-color: #E25454;
+}
+
+.container-2 input[type="checkbox"] + label:before {
+	content: " ";
+	display: inline-block;
+	box-sizing: border-box;
+	width: 18px;
+	height: 18px;
+	margin-right: 5px;
+	vertical-align: bottom;
+	border: 1.5px solid #AAAAAA;
+}
+
+.container-2 input[type="checkbox"]:checked + label:before {
+	content: "√";
+	font-size: 12px;
+	font-weight: bold;
+	text-align: center;
+	border: 2px solid #E25454;
+	color: #E25454;
+}
