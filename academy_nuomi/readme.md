@@ -28,3 +28,27 @@
 * task01.css
 
 
+---
+
+## 自定义网页右键菜单
+
+### 要求
+
+[自定义网页右键菜单](http://ife.baidu.com/course/detail/id/26?t=1490693259217#learn)
+
+### 完成情况
+
+应该基本符合要求。
+
+自定义菜单出现在鼠标指针右下方，当右边区域不够大，展示在左下方，同理，当下方区域不够时，展示在鼠标指针上方。
+
+### 效果预览
+
+[自定义网页右键菜单](https://miraclezys.github.io/IFE/academy_nuomi/code/task02.html)
+
+### 代码列表
+
+* task02.html
+* task02.css
+* task02.js
+
