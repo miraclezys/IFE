@@ -1,0 +1,111 @@
+.container {
+	width: 300px;
+	height: 300px;
+	margin: 100px auto;
+	position: relative;
+}
+
+.background {
+	width: 300px;
+	height: 300px;
+	background-image: url(../../image/background.jpg);
+	background-size: cover;
+}
+
+.border {
+	width: 300px;
+	height: 300px;
+	position: absolute;
+	top: 0;
+}
+
+.border-top, .border-bottom {
+	width: 0px;
+	height: 2px;
+	margin: 0px auto;
+	background-color: white;
+	transition: width 1s;
+}
+
+.border-left, .border-right {
+	width: 2px;
+	height: 0px;
+	margin: 0 auto;
+	background-color: white;
+	transition: height 1s;
+}
+
+.border-top {
+	position: relative;
+	top: 50px;
+}
+
+.border-bottom {
+	position: relative;
+	top: 248px;
+}
+
+.border-left {
+	position: absolute;
+	top: 50%;
+	left: 25px;
+	transform: translateY(-50%);
+}
+
+.border-right {
+	position: absolute;
+	top: 50%;
+	left: 273px;
+	transform: translateY(-50%);
+}
+
+.container:hover .border-top,
+.container:hover .border-bottom{
+	width: 250px;
+	transition: width 1s;
+}
+
+.container:hover .border-left,
+.container:hover .border-right{
+	height: 200px;
+	transition: height 1s;
+}
+
+.container:hover .background {
+	filter: blur(5px);
+}
+
+p {
+	width: 180px;
+	margin: 0 auto;
+	padding-top: 40px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translateX(-50%);
+	opacity: 0;
+	font-size: 18px;
+	font-weight: bold;
+	background-image: -webkit-linear-gradient(left, #ffb6c1 10%, #9932cc 20%, #000080 30%, #90ee90 40%, #ffe4b5 50%, #ffb6c1 60%, #9932cc 70%, #000080 80%, #90ee90 90%, #ffb6c1);
+	-webkit-background-clip: text;
+	background-size: 200% 100%;
+	color: transparent;
+	animation: mymove 8s infinite;
+	transition: all 1s;
+}
+
+.container:hover p {
+	padding-top: 0px;
+	opacity: 1;
+	transition: all 1s;
+}
+
+@keyframes mymove
+{
+	0% {
+		background-position: 0% 100%;
+	}
+	100% {
+		background-position: -100% 100%;
+	}
+}

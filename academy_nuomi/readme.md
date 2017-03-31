@@ -52,3 +52,30 @@
 * task02.css
 * task02.js
 
+
+---
+
+## 有趣的鼠标悬浮模糊效果
+
+### 要求
+
+[有趣的鼠标悬浮模糊效果](http://ife.baidu.com/course/detail/id/14)
+
+### 资料
+
+[CSS3 Transition](http://www.w3cplus.com/content/css3-transition)
+
+[深入理解CSS3 gradient斜向线性渐变](http://www.zhangxinxu.com/wordpress/2013/09/%E6%B7%B1%E5%85%A5%E7%90%86%E8%A7%A3css3-gradient%E6%96%9C%E5%90%91%E7%BA%BF%E6%80%A7%E6%B8%90%E5%8F%98/)
+
+### 完成情况
+
+应该基本符合要求。用到的相关CSS属性还要更升入的理解
+
+### 效果预览
+
+[有趣的鼠标悬浮模糊效果](https://miraclezys.github.io/IFE/academy_nuomi/code/task03.html)
+
+### 代码列表
+
+* task03.html
+* task03.css
