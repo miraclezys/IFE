@@ -143,7 +143,16 @@ var value = select1.options[select1.selectedIndex].value;
 
 ### 完成情况
 
-应该基本符合要求
+应该基本符合要求。
+
+div的父元素没有撑满，body和html都要100%
+
+```css
+html,body{
+    height: 100%;
+    width: 100%;
+}
+```
 
 ### 效果预览
 
@@ -154,18 +163,6 @@ var value = select1.options[select1.selectedIndex].value;
 * task05.html
 * task05.js
 
-
-
-
-
-div的父元素没有撑满，body和html都要100%
-
-```css
-html,body{
-    height: 100%;
-    width: 100%;
-}
-```
 
 ---
 
