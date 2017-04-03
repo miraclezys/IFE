@@ -1,23 +1,25 @@
 body {
 	margin: 0;
 	height: 100%;
-	background-color: #f7f7f7;
 }
 
 .container {
-	width: 80%;
+	width: 60%;
 	margin: 3% auto;
-	border: 2px solid black;
+	
 }
 
 h1 {
 	text-align: center;
+	color: #6b6767;
+	font-size: 24px;
 }
 
 .main {
-	margin: 5px auto;
+	margin: 0 auto;
+	margin-top: 30px;
 	padding: 10px;
-	background-color: white;
+	border: 3px solid #6b6767;
 }
 
 table {
@@ -31,15 +33,26 @@ td, th {
 	text-align: left;
 }
 
-a {
+th {
+	height: 50px;
 	color: #6b6767;
+}
+
+td {
+	font-size: 16px;
+}
+
+a {
+	color: #828282;
 	text-decoration: none;
 }
 
-a:visted {
-	color: blue;
+a:hover {
+	color: #545252;
 }
 
-a:hover {
-	color: #6b6767;
+@media screen and (max-width: 550px) {
+	table {
+		width: 80%;
+	}
 }
