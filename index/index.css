@@ -1,0 +1,45 @@
+body {
+	margin: 0;
+	height: 100%;
+	background-color: #f7f7f7;
+}
+
+.container {
+	width: 80%;
+	margin: 3% auto;
+	border: 2px solid black;
+}
+
+h1 {
+	text-align: center;
+}
+
+.main {
+	margin: 5px auto;
+	padding: 10px;
+	background-color: white;
+}
+
+table {
+	width: 300px;
+	margin: 20px;
+	display: inline-block;
+	vertical-align: top;
+}
+
+td, th {
+	text-align: left;
+}
+
+a {
+	color: #6b6767;
+	text-decoration: none;
+}
+
+a:visted {
+	color: blue;
+}
+
+a:hover {
+	color: #6b6767;
+}

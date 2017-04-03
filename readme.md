@@ -1,6 +1,8 @@
 # 百度前端技术学院任务的完成情况
 
-### 小微学院
+查看效果可点击这里：[目前已经完成的任务](https://miraclezys.github.io/IFE/index.html)
+
+### [小微学院](https://github.com/miraclezys/IFE/tree/master/academy_weiwei)
 
 * 任务一：零基础HTML编码
 * 任务二：零基础HTML及CSS编码（一）
@@ -11,7 +13,7 @@
 * 任务十：Flexbox 布局练习
 
 
-### 斌斌学院
+### [斌斌学院](https://github.com/miraclezys/IFE/tree/master/academy_binbin)
 
 * 任务一：零基础JavaScript编码（一）
 * 任务二：零基础JavaScript编码（二）
@@ -20,7 +22,7 @@
 * 任务五：基础JavaScript练习（二）
 * 任务六：基础JavaScript练习（三）
 
-### 耀耀学院
+### [耀耀学院](https://github.com/miraclezys/IFE/tree/master/academy_yaoyao)
 
 * 任务一：表单（一）单个表单项的检验
 * 任务二：表单（二）多个表单项的动态校验
@@ -30,7 +32,7 @@
 * 任务六：UI组件之浮出层
 * 任务七：UI组件之排序表格
 
-## 糯米学院
+### [糯米学院](https://github.com/miraclezys/IFE/tree/master/academy_nuomi)
 
 * 自定义checkbox， radio样式
 * 自定义网页右键菜单
