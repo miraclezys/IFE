@@ -22,9 +22,17 @@ label:hover {
 	background-color: #b7b7b7;
 }
 
+label:after {
+	content: "";
+	max-height: 0;
+	transition: max-height .5s;
+
+}
+
 input[type="radio"]:checked + label:after {
 	content: "Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.";
 	width: 100%;
+	max-height: 300px;
 	padding: 10px;
 	display: block;
 	position: relative;
@@ -34,4 +42,5 @@ input[type="radio"]:checked + label:after {
 	border-top: 2px solid #dddddd;
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
+	
 }
