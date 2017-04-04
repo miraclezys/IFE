@@ -25,8 +25,8 @@ label:hover {
 label:after {
 	content: "";
 	max-height: 0;
-	transition: max-height .5s;
-
+	overflow: hidden;
+	transition: max-height 3s;
 }
 
 input[type="radio"]:checked + label:after {
@@ -42,5 +42,4 @@ input[type="radio"]:checked + label:after {
 	border-top: 2px solid #dddddd;
 	border-bottom-right-radius: 5px;
 	border-bottom-left-radius: 5px;
-	
 }

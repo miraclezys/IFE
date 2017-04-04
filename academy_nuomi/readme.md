@@ -99,6 +99,8 @@
 
 使用input的radio单选框特性结合CSS中的伪元素实现[bootstrap中折叠面板](http://v3.bootcss.com/javascript/#collapse-example-accordion)。
 
+实现动画是使用`max-height`实现的，因为想`height`设为`auto`。但是如果将`transition`的`property`设为`max-height`，由于是对`label:after`进行动画设置，`content`中的内容就会提前出现，此时需要设置`overflow: hidden`就能解决这一问题，动画过渡也会比较自然。
+
 ### 效果预览
 
 [ 使用CSS实现折叠面板](https://miraclezys.github.io/IFE/academy_nuomi/code/task04.html)
