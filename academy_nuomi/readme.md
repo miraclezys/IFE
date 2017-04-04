@@ -83,3 +83,27 @@
 
 * task03.html
 * task03.css
+
+
+
+
+##  使用CSS实现折叠面板
+
+### 要求
+
+[使用CSS实现折叠面板](http://ife.baidu.com/course/detail/id/27)
+
+### 完成情况
+
+基本符合要求。
+
+使用input的radio单选框特性结合CSS中的伪元素实现[bootstrap中折叠面板](http://v3.bootcss.com/javascript/#collapse-example-accordion)。
+
+### 效果预览
+
+[ 使用CSS实现折叠面板](https://miraclezys.github.io/IFE/academy_nuomi/code/task04.html)
+
+### 代码列表
+
+* task04.html
+* task04.css
