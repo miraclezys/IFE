@@ -109,3 +109,24 @@
 
 * task04.html
 * task04.css
+
+---
+
+## CSS3饼状loading效果
+
+### 要求
+
+[CSS3饼状loading效果](http://ife.baidu.com/course/detail/id/36)
+
+### 完成情况
+
+应该基本符合要求
+
+### 预览效果
+
+[ CSS3饼状loading效果](https://miraclezys.github.io/IFE/academy_nuomi/code/task05.html)
+
+### 代码列表
+
+* task05.html
+* task05.css
