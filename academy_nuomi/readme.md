@@ -162,3 +162,25 @@
 
 * task05.html
 * task05.css
+
+---
+
+## 正则表达式之入门
+
+### 要求
+
+[正则表达式之入门](http://ife.baidu.com/course/detail/id/29)
+
+### 完成情况
+
+应该基本符合要求
+
+### 预览效果
+
+[正则表达式之入门](https://miraclezys.github.io/IFE/academy_nuomi/code/task06.html)
+
+### 代码列表
+
+* task06.html
+* task06.css
+* task06.js
