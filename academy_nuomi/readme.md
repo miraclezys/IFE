@@ -120,7 +120,39 @@
 
 ### 完成情况
 
-应该基本符合要求
+应该基本符合要求。
+
+具体做法：
+
+需要实现的效果：
+
+![circle](https://raw.githubusercontent.com/miraclezys/IFE/master/academy_nuomi/image/circle3.gif)
+
+内层圆分为三层：
+
+![circle](https://raw.githubusercontent.com/miraclezys/IFE/master/academy_nuomi/image/circle1.png)
+
+将一次圆周旋转分为以下几个部分(0%~100%)：
+
+0%
+
+![circle](https://raw.githubusercontent.com/miraclezys/IFE/master/academy_nuomi/image/circle1.png)
+
+25%
+
+![circle](https://raw.githubusercontent.com/miraclezys/IFE/master/academy_nuomi/image/circle25.png)
+
+50%
+
+![circle](https://raw.githubusercontent.com/miraclezys/IFE/master/academy_nuomi/image/circle50.png)
+
+75%
+
+![circle](https://raw.githubusercontent.com/miraclezys/IFE/master/academy_nuomi/image/circle75.png)
+
+100%
+
+![circle](https://raw.githubusercontent.com/miraclezys/IFE/master/academy_nuomi/image/circle100.png)
 
 ### 预览效果
 
