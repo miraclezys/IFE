@@ -184,3 +184,28 @@
 * task06.html
 * task06.css
 * task06.js
+
+---
+
+## 动态数据绑定（一）
+
+### 要求
+
+[动态数据绑定（一）](http://ife.baidu.com/course/detail/id/15?t=1491537414049#learn)
+
+### 资料
+
+[vue早期源码学习系列之一：如何监听一个对象的变化](https://github.com/youngwind/blog/issues/84)
+
+### 完成情况
+
+应该基本符合要求
+
+### 预览效果
+
+[动态数据绑定（一）](https://miraclezys.github.io/IFE/academy_nuomi/code/task07.html)
+
+### 代码列表
+
+* task07.html
+* task07.js
