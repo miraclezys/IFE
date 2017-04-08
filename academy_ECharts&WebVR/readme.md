@@ -16,7 +16,7 @@
 
 ### 效果预览
 
-[ECharts NO.1 - 零基础绘制ECharts图表](https://miraclezys.github.io/IFE/academy_ECharts&WebVR/code/task01.html)
+[ECharts NO.1 - 零基础绘制ECharts图表](https://miraclezys.github.io/IFE/academy_ECharts%26WebVR/code/task01.html)
 
 ### 代码列表
 
