@@ -42,6 +42,6 @@
 * 正则表达式之入门
 * 动态数据绑定（一）
 
-## [ECharts & WebVR学院](https://github.com/miraclezys/IFE/tree/master/academy_ECharts%26WebVR)
+### [ECharts & WebVR学院](https://github.com/miraclezys/IFE/tree/master/academy_ECharts%26WebVR)
 
 * ECharts NO.1 - 零基础绘制ECharts图表
