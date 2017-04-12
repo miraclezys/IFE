@@ -11,37 +11,25 @@ function go () {
 
 	switch(block.dir_pos){
 		case 0:
-			if((block.top - 1) == 0) {
-				alert("超出界了哦( ⊙ o ⊙ )！");
-			}
-			else {
+			if((block.top - 1) >= 1) {
 				block.top_pos -= 40;
 				block.top -= 1;
 			}
 			break;
 		case 180:
-			if((block.top + 1) == 11) {
-				alert("超出界了哦( ⊙ o ⊙ )！");
-			}
-			else {
+			if((block.top + 1) <= 10) {
 				block.top_pos += 40;
 				block.top += 1;
 			}
 			break;
 		case 270:
-			if((block.left - 1) == 0) {
-				alert("超出界了哦( ⊙ o ⊙ )！");
-			}
-			else {
+			if((block.left - 1) >= 1) {
 				block.left_pos -= 40;
 				block.left -= 1;
 			}
 			break;
 		case 90:
-			if((block.left + 1) == 11) {
-				alert("超出界了哦( ⊙ o ⊙ )！");
-			}
-			else {
+			if((block.left + 1) <= 10) {
 				block.left_pos += 40;
 				block.left += 1;
 			}

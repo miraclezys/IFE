@@ -43,6 +43,9 @@
 		if(value == "") {
 			alert("输入内容不能为空");
 		}
+		else if (parseFloat(value).toString() == "NaN") {
+			alert("请输入数字哦！")
+		}
 		else {
 			arr.push(value);
 			deleteItem();

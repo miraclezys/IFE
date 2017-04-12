@@ -45,3 +45,8 @@
 ### [ECharts & WebVR学院](https://github.com/miraclezys/IFE/tree/master/academy_ECharts%26WebVR)
 
 * ECharts NO.1 - 零基础绘制ECharts图表
+
+### [我的学院](https://github.com/miraclezys/IFE/tree/master/academy_me)
+
+* ​
+
