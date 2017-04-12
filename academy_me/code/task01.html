@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>render</title>
+    <meta charset="utf-8">
+</head>
+<body>
+</body>
+<script>
+    var greeting = 'My name is ${name}, age ${age}, I am a ${job.jobName}.';
+    var employee = {
+        name: 'XiaoMing', 
+        age: 11,
+        job: {
+            jobName: 'designer',
+            jobLevel: 'senior'
+        }
+    };
+
+    function render(obj) {
+        var str = this.toString();
+
+        var arr = [];
+        while(1) {
+            let temp = /\$\{((\w+)|(\w+.\w+))\}/;
+            arr = str.match(temp);
+            if(arr == null) {
+                break;
+            }
+            else if(arr[2] != null) {
+                if(obj[arr[1]]) {
+                    str = str.replace(new RegExp("\\" + arr[0],"g"), obj[arr[1]]);
+                }
+                else {
+                    console.log("Not exit " + arr[0]);
+                    break;
+                }
+            }
+            else if(arr[3] != null) {
+                arr1 = arr[3].split(".");
+                if(obj[arr1[0]][arr1[1]]) {
+                    str = str.replace(new RegExp("\\" + arr[0],"g"), obj[arr1[0]][arr1[1]]);
+                }
+                else {
+                    console.log("Not exit " + arr[0]);
+                    break;
+                }
+            }
+        }
+
+        return str;
+    }
+
+    var result = render.call(greeting, employee);
+    console.log(result);  //My name is XiaoMing, age 11, I am a designer
+</script>
+</html>
