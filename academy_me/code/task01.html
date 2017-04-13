@@ -17,7 +17,7 @@
         }
     };
 
-    function render(obj) {
+    String.prototype.render = function(obj) {
         var str = this.toString();
 
         var arr = [];
@@ -49,9 +49,9 @@
         }
 
         return str;
-    }
+    };
 
-    var result = render.call(greeting, employee);
+    var result = greeting.render(employee);
     console.log(result);  //My name is XiaoMing, age 11, I am a designer
 </script>
 </html>
