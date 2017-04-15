@@ -11,6 +11,7 @@
 * 任务五：零基础HTML及CSS编码（二）
 * 任务八：响应式网格（栅格化）布局
 * 任务十：Flexbox 布局练习
+* 任务十一：移动Web页面布局实践
 
 
 ### [斌斌学院](https://github.com/miraclezys/IFE/tree/master/academy_binbin)

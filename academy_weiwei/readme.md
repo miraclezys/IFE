@@ -213,3 +213,42 @@
 HTML: task10.html
 
 CSS: task10.css
+
+---
+
+## 任务十一：移动Web页面布局实践
+
+### 要求
+
+[任务十一：移动Web页面布局实践](http://ife.baidu.com/course/detail/id/116)
+
+### 资料
+
+- [MDN:手机网页开发](https://developer.mozilla.org/zh-CN/docs/Web/Guide/Mobile)
+- [MDN:在移动浏览器中使用viewport元标签控制布局](https://developer.mozilla.org/zh-CN/docs/Mobile/Viewport_meta_tag)
+- [移动前端开发和 Web 前端开发的区别是什么](https://www.zhihu.com/question/20269059)
+- [Alloyteam移动开发规范概述](http://alloyteam.github.io/Spirit/modules/Standard/)
+- [手机/移动前端开发需要注意的20个要点](http://sentsin.com/web/54.html)
+- [w3cplus响应式技术资源](http://www.w3cplus.com/responsive)
+- [浅谈移动Web开发](http://www.infoq.com/cn/articles/development-of-the-mobile-web-deep-concept)
+- [Alloyteam Mars](https://github.com/AlloyTeam/Mars)
+- [移动WEB开发入门](http://junmer.github.io/mobile-dev-get-started/)
+- [移动开发资源集合](https://github.com/jtyjty99999/mobileTech)
+- [The Mobile Web Handbook](http://quirksmode.org/mobilewebhandbook/)
+- [MobileWeb 适配总结](http://www.w3ctech.com/topic/979)
+- [移动前端不得不了解的html5 head 头标签](http://www.css88.com/archives/5480)
+
+### 完成情况
+
+第一次写移动Web页面，还有很多需要完善的地方。发现在电脑上模拟移动端查看和手机上查看还是差别挺大的，特别是字号。
+
+如果在手机查看的时候发现右边是有白色多出来，很有可能是因为某个元素宽度超过屏幕宽度了，很可能是宽度设为了`width: 100%;`，但是又设置了`border`的值，此时需要修改`box-sizing`的值为`border-box`就好了。
+
+### 效果预览
+
+[任务十一：移动Web页面布局实践](https://miraclezys.github.io/IFE/academy_weiwei/code/task11.html)
+
+### 代码列表
+
+* task11.html
+* task11.css
