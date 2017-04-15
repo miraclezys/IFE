@@ -35,7 +35,7 @@ header {
 header .title {
 	width: 100%;
 	display: inline-block;
-	font-size: 3rem;
+	font-size: 4rem;
 	color: #fff;
 	text-align: center;
 }
@@ -60,7 +60,7 @@ header .title {
 .nav-1 .nav-title a {
 	width: 100%;
 	padding: 1rem;
-	font-size: 2.6rem;
+	font-size: 2.8rem;
 }
 
 .nav-1 .image {
