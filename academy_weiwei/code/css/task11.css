@@ -265,7 +265,7 @@ table, tr{
 
 .block-5 > div {
 	width: 100%;
-	height: 70%;
+	height: 50%;
 	display: flex;
 	justify-content: space-between;
 }
